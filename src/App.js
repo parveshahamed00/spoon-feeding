@@ -11,12 +11,19 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-   <Ai/>
+      {/* <Ai/>
    <Ds/>
    <Mad/>
-   <Ml/>
+   <Ml/>`
    <Rm/>
-   <AiBook/>
+   <AiBook/> */}
+      <div className="main">
+        <div className="nav">
+
+        </div>
+        <div className="content">
+           </div>
+      </div>
     </div>
   );
 }

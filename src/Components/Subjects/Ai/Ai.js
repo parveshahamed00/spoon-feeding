@@ -11,7 +11,6 @@ import './css/Subject.css'
 const Ai = () => {
   return (
     <>
-      <h1>Artificial Intelligence</h1>
           <Routes>
             <Route path="/" element={<AiUnitsNav />}></Route>
             <Route index path="aiunitI" element={<AiunitI />} />
