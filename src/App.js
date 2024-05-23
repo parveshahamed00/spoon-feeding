@@ -1,3 +1,5 @@
+
+import Navbar from "./LogoQuotes";
 import AiBook from "./Components/Books/AiBook/AiBook";
 import Ai from "./Components/Subjects/Ai/Ai";
 import Ds from "./Components/Subjects/DS/Ds";
@@ -8,12 +10,20 @@ import Rm from "./Components/Subjects/Rm/Rm";
 function App() {
   return (
     <div className="App">
-   <Ai/>
+      <Navbar></Navbar>
+      {/* <Ai/>
    <Ds/>
    <Mad/>
-   <Ml/>
+   <Ml/>`
    <Rm/>
-   <AiBook/>
+   <AiBook/> */}
+      <div className="main">
+        <div className="nav">
+
+        </div>
+        <div className="content">
+           </div>
+      </div>
     </div>
   );
 }
