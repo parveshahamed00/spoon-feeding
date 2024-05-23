@@ -1,8 +1,12 @@
 .Book-Container{
     background-color:  #F2E8C6;
     height: 100px;
+    display: flex;
 }
 .Book-Container h1{
     color: #BB0029;
     text-align: center;
+}
+.image-container{
+ width: 50%;
 }

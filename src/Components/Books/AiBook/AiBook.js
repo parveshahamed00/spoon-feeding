@@ -8,7 +8,7 @@ const AiBook = () => {
     <div className='Book-Container'>
     <h1>Artificial Intelligence</h1>
     </div>
-    <div>
+    <div className='image-container'>
     <a href={AiBookpdf} target = "_blank">Link</a>
     </div>
     </>
