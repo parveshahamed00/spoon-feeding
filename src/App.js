@@ -1,9 +1,9 @@
-
+import Ai from "./Components/Subjects/Ai/Ai";
 
 function App() {
   return (
     <div className="App">
-    <p>Subashini</p>
+   <Ai/>
     </div>
   );
 }
