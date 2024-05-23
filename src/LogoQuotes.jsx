@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import logo from './images/logo.png'
-const Navbar = () => {
+const LogoQuotes = () => {
   let [quote, setQuote] = useState({});
   function generateQuote() {
     fetch("https://quote-garden.onrender.com/api/v3/quotes/random")
@@ -23,4 +23,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default LogoQuotes

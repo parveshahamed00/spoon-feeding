@@ -24,3 +24,8 @@ body{
     padding: 2%;
 }
 /* home page - nav bar  (APP) */
+.App .main{
+    display: flex;
+    min-height: 80vh;
+    background-color: aliceblue;
+}

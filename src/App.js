@@ -1,5 +1,5 @@
 
-import Navbar from "./Navbar";
+import Navbar from "./LogoQuotes";
 import AiBook from "./Components/Books/AiBook/AiBook";
 import Ai from "./Components/Subjects/Ai/Ai";
 import Ds from "./Components/Subjects/DS/Ds";
