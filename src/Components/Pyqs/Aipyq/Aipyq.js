@@ -5,7 +5,7 @@ const Aipyq = () => {
     <>
     <div>
     <a href={pyq} target="_blank">
-          <button>Artificial Intelligence</button>
+          <button >Artificial Intelligence</button>
     </a>
     </div>
     </>

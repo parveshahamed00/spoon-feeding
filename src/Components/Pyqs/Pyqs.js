@@ -4,14 +4,18 @@ import Madpyq from './Madpyq/Madpyq'
 import Dspyq from './Dspyq/Dspyq'
 import Mlpyq from './Mlpyq/Mlpyq'
 import Rmpyq from './Rmpyq/Rmpyq'
+import '../Pyqs/pyqs.css'
 
 const Pyqs = () => {
   return (
     <> 
-    <h1>
+   <div className='pyq-title'>
+   <h1>
         Previous Year Questions
     </h1>
-    <div>
+   </div>
+    <div className='Pyq-container'>
+    
         <Aipyq/>
         <Dspyq/>
         <Madpyq/>
