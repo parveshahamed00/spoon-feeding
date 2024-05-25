@@ -10,6 +10,7 @@ import MadBook from "./Components/Books/MadBook/MadBook";
 import MlBook from "./Components/Books/MlBook/MlBook";
 import RmBook from "./Components/Books/RmBook/RmBook";
 import Pyqs from "./Components/Pyqs/Pyqs";
+import Calendar from "./Components/Calendar/Calendar";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <MlBook />
       <RmBook />
       <Pyqs/>
+      <Calendar/>
       <div className="main">
         <div className="nav"></div>
         <div className="content"></div>
