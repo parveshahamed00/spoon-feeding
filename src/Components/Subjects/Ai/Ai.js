@@ -6,7 +6,7 @@ import AiunitsIV from "./AiUnits/AiunitsIV";
 import AiunitV from "./AiUnits/AiunitV";
 import AiUnitsNav from "./AiUnits/AiUnitsNav";
 import { Routes, Route, } from "react-router-dom";
-import './css/Subject.css'
+import '../css/Subject.css'
 
 const Ai = () => {
   return (
