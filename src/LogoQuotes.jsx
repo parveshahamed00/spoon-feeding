@@ -3,13 +3,15 @@ import logo from './images/logo.png'
 const LogoQuotes = () => {
   let [quote, setQuote] = useState({});
   function generateQuote() {
-    fetch("https://quote-garden.onrender.com/api/v3/quotes/random")
+    
+    fetch("https://type.fit/api/quotes")
       .then((e) => {
         return e.json();
       })
       .then((e) => {
         console.log(e);
-        setQuote({ quote: e.data[0].quoteText, author: e.data[0].quoteAuthor });
+        let random = Math.floor(Math.random() * e.length);
+        setQuote({ quote: e[random].text, author: e[random].author});
       });
   }
   useEffect(() => generateQuote, []);
@@ -17,7 +19,7 @@ const LogoQuotes = () => {
     <section className='navbar'>
 <div className="logo"><img src={logo} alt="" srcset="" /></div>
 <div className="quote">
-  {quote!==""  && <h1>" {quote.quote} - {quote.author} "</h1>}
+  <h1>" {quote.quote} - {quote.author} "</h1>
 </div>
     </section>
   )
