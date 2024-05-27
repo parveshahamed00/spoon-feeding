@@ -29,3 +29,65 @@ body{
     min-height: 80vh;
     background-color: aliceblue;
 }
+/* SideBar  */
+.side-bar{
+    background-color: #FFA754;
+    width: 400px;
+    min-height: 90vh;
+}
+.side-bar ul li{
+    list-style: none;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #BB0029;
+}
+.side-bar  a :hover{
+    color: whitesmoke;
+}
+.side-bar ul a {
+    text-decoration: none;
+}
+.side-bar hr{
+    
+    border:1px solid white;
+}
+.icon{
+    padding: 15px;
+}
+/* SideBar ending */
+
+/* hero section */
+.hero-container{
+    width: 70%;
+    min-height: 90vh;
+    /* background-color: #BB0029; */
+    display: flex; 
+}
+.hero-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/* hero section ending */
+
+/* card  */
+.card-container{
+background-color:#F2E8C6 ;
+width: 300PX;
+height: 150px;
+border-radius: 10px;
+border: 1px solid #FFA754;
+}
+.card-container h3{
+    color: #BB0029;
+    padding-top: 35px;
+    text-align: center;
+}
+/* card closing */
+
+/* home page opening */
+.home-page{
+    display: flex
+}

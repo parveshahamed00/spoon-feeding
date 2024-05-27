@@ -1,34 +1,41 @@
 import React from 'react'
-
+import { FaBars, FaBookOpen,FaQuestionCircle,FaCalendarCheck } from "react-icons/fa";
 const SideBar = () => {
   return (
-    <div>
-        <div>
-            <ol>
-                <a>
+    <>
+        <div className='side-bar'>
+            <ul>
+                <a href='#'>
                    <li>
-
+                    <span className='icon'><FaBars/></span> 
+                     All Subjects
                    </li>
                 </a>
-                <a>
+                <hr/> 
+                <a  href='#'>
                    <li>
-                    
+                   <span className='icon'><FaBookOpen/></span>
+                    Books
                    </li>
                 </a>
-                <a>
+                <hr/> 
+                <a  href='#'>
                    <li>
-                    
+                   <span className='icon'><FaQuestionCircle/></span>
+                    PYQS
                    </li>
                 </a>
-                <a>
+                <hr/> 
+                <a  href='#'>
                    <li>
-                    
+                   <span className='icon'><FaCalendarCheck/></span>
+                    Calendar
                    </li>
                 </a>
-            </ol>
+            </ul>
            
         </div>
-    </div>
+    </>
   )
 }
 
