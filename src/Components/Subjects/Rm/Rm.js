@@ -11,7 +11,7 @@ const Rm = () => {
   return (
    <>
       <Routes>
-            <Route path="/" element={<RmUnitNav/>}></Route>
+            <Route path="*" element={<RmUnitNav/>}></Route>
             <Route index path="rmunitI" element={<RmunitI />} />
             <Route path="rmunitII" element={<RmunitII/>} />
             <Route path="rmunitIII" element={<RmunitIII />} />

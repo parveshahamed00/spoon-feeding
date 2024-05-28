@@ -9,11 +9,6 @@ import '../Pyqs/pyqs.css'
 const Pyqs = () => {
   return (
     <> 
-   <div className='pyq-title'>
-   <h1>
-        Previous Year Questions
-    </h1>
-   </div>
     <div className='Pyq-container'>
     
         <Aipyq/>

@@ -1,5 +1,4 @@
 .unit-container{
-    width: 70%;
     background-color: #F2E8C6;
 }
 .unit-container h3{
@@ -9,6 +8,13 @@
 .unit-container span {
     line-height: 1.8;
 }
-Link {
-    text-decoration: none;
+.home-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+.home-nav Link{
+    
 }

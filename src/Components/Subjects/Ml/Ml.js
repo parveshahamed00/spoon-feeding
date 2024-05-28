@@ -11,7 +11,7 @@ const Ml = () => {
   return (
    <>
       <Routes>
-            <Route path="/" element={<MlUnitNav/>}></Route>
+            <Route path="*" element={<MlUnitNav/>}></Route>
             <Route index path="mlunitI" element={<MlunitI />} />
             <Route path="mlunitII" element={<MlunitII />} />
             <Route path="mlunitIII" element={<MlunitIII />} />

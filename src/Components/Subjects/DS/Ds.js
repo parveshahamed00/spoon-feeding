@@ -11,7 +11,7 @@ const Ds = () => {
   return (
     <>
     <Routes>
-        <Route path='/' element={<DsUnitNav/>}></Route>
+        <Route path='*' element={<DsUnitNav/>}></Route>
         <Route path='dsunitI' element={<DsunitI/>}></Route>
         <Route path='dsunitII' element={<DsunitII/>}></Route>
         <Route path='dsunitIII' element={<DsunitIII/>}></Route>

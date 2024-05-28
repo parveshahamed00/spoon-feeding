@@ -32,7 +32,7 @@ body{
 /* SideBar  */
 .side-bar{
     background-color: #FFA754;
-    width: 400px;
+    width: 350px;
     min-height: 90vh;
 }
 .side-bar ul li{
@@ -55,14 +55,28 @@ body{
 .icon{
     padding: 15px;
 }
+.side-bar li a {
+    color: #BB0029;
+}
 /* SideBar ending */
+
+
+/* main content */
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    /* background-color:#FFA754; */
+    margin-top: 20px;
+    align-items: center;
+}
 
 /* hero section */
 .hero-container{
-    width: 70%;
+    width: 80%;
     min-height: 90vh;
     /* background-color: #BB0029; */
-    display: flex; 
+    display: flex;
+    padding-left: 10px; 
 }
 .hero-cards{
     display: flex;
@@ -70,12 +84,22 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.hero-cards h2{
+    color:#BB0029;
+    font-weight: 600px;
+}
+.book-cards h2{
+    color:#BB0029;
+    font-weight: 600px;
+    text-align: center;
+}
+
 /* hero section ending */
 
 /* card  */
 .card-container{
 background-color:#F2E8C6 ;
-width: 300PX;
+width: 250PX;
 height: 150px;
 border-radius: 10px;
 border: 1px solid #FFA754;
@@ -91,3 +115,23 @@ border: 1px solid #FFA754;
 .home-page{
     display: flex
 }
+
+/* book container */
+
+.image-container{
+    width: 300px;
+    height: 300px;
+   text-align: center;
+ }
+ .image-container img{
+   width: 250px;
+   height: 250px;
+ }
+ .books-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 70vh;
+ }
+

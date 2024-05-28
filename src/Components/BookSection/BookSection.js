@@ -1,15 +1,12 @@
 import React from 'react'
-import Card from '../HeroSection/Card'
+import Books from '../Books/Books'
 
 const BookSection = () => {
   return (
     <div className='hero-container'>
-    <div className='hero-cards'>
-        <Card title='AI'/>
-        <Card title='Ds'/>
-        <Card title='MAD'/>
-        <Card title='ML'/>
-        <Card title='RM'/>
+    <div className='book-cards'>
+      <h2>Books</h2>
+      <Books/>
     </div>
 </div>
   )
